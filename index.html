@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Task List</span>
+                  <form id="task-form">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input id="task" type="text" class="validate white-text">
+                        <label for="task" class="white-text">New Task</label>
+                        <input type="submit" value="Add Task" class="btn">
+                      </div>
+                    </form>
+                </div>
+              </div>
+              <div class="card-action">
+                  <h5 id="task-title" class="white-text">Tasks</h5>
+                <div class="input-field col s12">
+                    <input id="filter" type="text">
+                    <label for="filter" class="white-text">Filter Tasks</label>
+                </div>
+                <ul class="collection"></ul>
+                <a href="#" class="clear-tasks btn">Clear Tasks</a>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="app.js"></script>
+      <script type=""></script>
+</body>
+</html>
